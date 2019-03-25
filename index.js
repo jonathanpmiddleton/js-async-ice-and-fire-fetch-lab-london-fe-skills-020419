@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function fetchHouses() {
   //write fetch request to the Game of Thrones API
-  fetch('https://anapioficeandfire.com/api/houses/')
+  fetch('https://anapioficeandfire.com/api/houses')
   .then(resp => resp.json())
   .then(json => renderHouses(json));
 }
