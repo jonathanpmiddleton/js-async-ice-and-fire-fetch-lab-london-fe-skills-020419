@@ -47,7 +47,7 @@ function renderCharacters(json) {
   const main = document.querySelector('main');
   json.forEach(characters => {
     const h2 = document.createElement('h2');
-    h2.innerHTML = `<h2>${character.name}</h2>`;
+    h2.innerHTML = `<h2>${characters.name}</h2>`;
     main.appendChild(h2);
   });
 }
