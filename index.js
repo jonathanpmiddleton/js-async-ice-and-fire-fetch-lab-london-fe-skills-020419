@@ -36,9 +36,7 @@ function renderHouses(json) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  fetchHouses();
-});
+
 
 function fetchCharacters() {
   //write fetch request to the Game of Thrones API
@@ -56,6 +54,3 @@ function renderCharacters(json) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  fetchCharacters();
-});
