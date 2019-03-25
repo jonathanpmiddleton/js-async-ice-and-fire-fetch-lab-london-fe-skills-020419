@@ -33,3 +33,7 @@ function renderHouses(json) {
     main.appendChild(h2);
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  fetchHouses();
+});
