@@ -36,8 +36,6 @@ function renderHouses(json) {
   });
 }
 
-
-
 function fetchCharacters() {
   //write fetch request to the Game of Thrones API
   fetch('https://anapioficeandfire.com/api/characters/1031')
